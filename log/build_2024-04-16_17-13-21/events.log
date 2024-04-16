@@ -1,0 +1,530 @@
+[0.000000] (-) TimerEvent: {}
+[0.001048] (explore_lite) JobQueued: {'identifier': 'explore_lite', 'dependencies': OrderedDict()}
+[0.001159] (tutorial_pkg) JobQueued: {'identifier': 'tutorial_pkg', 'dependencies': OrderedDict([('explore_lite', '/home/feng/ros2_ws/install/explore_lite')])}
+[0.001315] (explore_lite) JobStarted: {'identifier': 'explore_lite'}
+[0.032946] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'cmake'}
+[0.037170] (explore_lite) Command: {'cmd': ['/usr/bin/cmake', '/home/feng/ros2_ws/src/m-explore-ros2/explore', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/feng/ros2_ws/install/explore_lite'], 'cwd': '/home/feng/ros2_ws/build/explore_lite', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:easy_install command is deprecated,ignore:setup.py install is deprecated'), ('GZ_SIM_RESOURCE_PATH', '/home/feng/rosbot_ws/install/rosbot_xl_description/share:/home/feng/rosbot_ws/install/ros_components_description/share'), ('USER', 'feng'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/feng/rosbot_ws/install/velocity_controllers/lib:/home/feng/rosbot_ws/install/tricycle_steering_controller/lib:/home/feng/rosbot_ws/install/tricycle_controller/lib:/home/feng/rosbot_ws/install/bicycle_steering_controller/lib:/home/feng/rosbot_ws/install/ackermann_steering_controller/lib:/home/feng/rosbot_ws/install/steering_controllers_library/lib:/home/feng/rosbot_ws/install/rosbot_hardware_interfaces/lib:/home/feng/rosbot_ws/install/range_sensor_broadcaster/lib:/home/feng/rosbot_ws/install/position_controllers/lib:/home/feng/rosbot_ws/install/micro_ros_agent/lib:/home/feng/rosbot_ws/install/micro_ros_msgs/lib:/home/feng/rosbot_ws/install/mecanum_drive_controller/lib:/home/feng/rosbot_ws/install/admittance_controller/lib:/home/feng/rosbot_ws/install/joint_trajectory_controller/lib:/home/feng/rosbot_ws/install/joint_state_broadcaster/lib:/home/feng/rosbot_ws/install/imu_sensor_broadcaster/lib:/home/feng/rosbot_ws/install/gripper_controllers/lib:/home/feng/rosbot_ws/install/effort_controllers/lib:/home/feng/rosbot_ws/install/forward_command_controller/lib:/home/feng/rosbot_ws/install/force_torque_sensor_broadcaster/lib:/home/feng/rosbot_ws/install/diff_drive_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/feng'), ('OLDPWD', '/home/feng'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1466'), ('HUSARION_CHECKOUT_DIR', '/home/feng/aiil_workspace/humble_workspace/src/husarion'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/feng/ros2_ws/install:/home/feng/ros2_ws/src/install:/home/feng/aiil_workspace/humble_workspace/install:/home/feng/rosbot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'feng'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'feng'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/feng/rosbot_ws/install/rosbot_xl_description/share:/home/feng/rosbot_ws/install/ros_components_description/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/feng/aiil_workspace/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/feng:@/tmp/.ICE-unix/1443,unix/feng:/tmp/.ICE-unix/1443'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6111c893_1c99_428c_bf07_1d34070c9aee'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CFSBM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/feng/ros2_ws/install/tutorial_pkg:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/ros2_controllers:/home/feng/rosbot_ws/install/velocity_controllers:/home/feng/rosbot_ws/install/tricycle_steering_controller:/home/feng/rosbot_ws/install/tricycle_controller:/home/feng/rosbot_ws/install/bicycle_steering_controller:/home/feng/rosbot_ws/install/ackermann_steering_controller:/home/feng/rosbot_ws/install/steering_controllers_library:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/rosbot_xl_description:/home/feng/rosbot_ws/install/rosbot_hardware_interfaces:/home/feng/rosbot_ws/install/ros_components_description:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/home/feng/rosbot_ws/install/range_sensor_broadcaster:/home/feng/rosbot_ws/install/position_controllers:/home/feng/rosbot_ws/install/micro_ros_agent:/home/feng/rosbot_ws/install/micro_ros_msgs:/home/feng/rosbot_ws/install/mecanum_drive_controller:/home/feng/rosbot_ws/install/admittance_controller:/home/feng/rosbot_ws/install/joint_trajectory_controller:/home/feng/rosbot_ws/install/joint_state_broadcaster:/home/feng/rosbot_ws/install/imu_sensor_broadcaster:/home/feng/rosbot_ws/install/husarion_office_gz:/home/feng/rosbot_ws/install/gripper_controllers:/home/feng/rosbot_ws/install/effort_controllers:/home/feng/rosbot_ws/install/forward_command_controller:/home/feng/rosbot_ws/install/force_torque_sensor_broadcaster:/home/feng/rosbot_ws/install/diff_drive_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/feng/rosbot_ws/install/rosbot_xl_description/share:/home/feng/rosbot_ws/install/ros_components_description/share'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/feng/ros2_ws/build/explore_lite'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/feng/ros2_ws/install/navigation/lib/python3.10/site-packages:/home/feng/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/feng/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_utils/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_gazebo/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_bringup/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_controller:/home/feng/rosbot_ws/install/rosbot_xl_controller/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/ros2_controllers_test_nodes:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:/home/feng/rosbot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('AIIL_CHECKOUT_DIR', '/home/feng/aiil_workspace'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/feng/ros2_ws/install/tutorial_pkg:/home/feng/rosbot_ws/install/ros2_controllers:/home/feng/rosbot_ws/install/velocity_controllers:/home/feng/rosbot_ws/install/tricycle_steering_controller:/home/feng/rosbot_ws/install/tricycle_controller:/home/feng/rosbot_ws/install/bicycle_steering_controller:/home/feng/rosbot_ws/install/ackermann_steering_controller:/home/feng/rosbot_ws/install/steering_controllers_library:/home/feng/rosbot_ws/install/rosbot_xl:/home/feng/rosbot_ws/install/rosbot_xl_description:/home/feng/rosbot_ws/install/rosbot_hardware_interfaces:/home/feng/rosbot_ws/install/ros_components_description:/home/feng/rosbot_ws/install/range_sensor_broadcaster:/home/feng/rosbot_ws/install/position_controllers:/home/feng/rosbot_ws/install/micro_ros_agent:/home/feng/rosbot_ws/install/micro_ros_msgs:/home/feng/rosbot_ws/install/mecanum_drive_controller:/home/feng/rosbot_ws/install/admittance_controller:/home/feng/rosbot_ws/install/joint_trajectory_controller:/home/feng/rosbot_ws/install/joint_state_broadcaster:/home/feng/rosbot_ws/install/imu_sensor_broadcaster:/home/feng/rosbot_ws/install/husarion_office_gz:/home/feng/rosbot_ws/install/gripper_controllers:/home/feng/rosbot_ws/install/effort_controllers:/home/feng/rosbot_ws/install/forward_command_controller:/home/feng/rosbot_ws/install/force_torque_sensor_broadcaster:/home/feng/rosbot_ws/install/diff_drive_controller:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble')]), 'shell': False}
+[0.094303] (explore_lite) StdoutLine: {'line': b'-- BuilD for ROS2: humble\n'}
+[0.095851] (explore_lite) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098669] (-) TimerEvent: {}
+[0.199562] (-) TimerEvent: {}
+[0.300970] (-) TimerEvent: {}
+[0.358562] (explore_lite) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.401126] (explore_lite) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.401378] (-) TimerEvent: {}
+[0.501732] (-) TimerEvent: {}
+[0.507108] (explore_lite) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.516398] (explore_lite) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.535030] (explore_lite) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.573413] (explore_lite) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.601892] (-) TimerEvent: {}
+[0.614596] (explore_lite) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.702133] (-) TimerEvent: {}
+[0.773199] (explore_lite) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.780818] (explore_lite) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.803512] (-) TimerEvent: {}
+[0.876015] (explore_lite) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.903704] (-) TimerEvent: {}
+[1.004219] (-) TimerEvent: {}
+[1.104987] (-) TimerEvent: {}
+[1.205510] (-) TimerEvent: {}
+[1.241467] (explore_lite) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.305720] (-) TimerEvent: {}
+[1.406322] (-) TimerEvent: {}
+[1.507130] (-) TimerEvent: {}
+[1.516194] (explore_lite) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.607332] (-) TimerEvent: {}
+[1.707791] (-) TimerEvent: {}
+[1.808268] (-) TimerEvent: {}
+[1.910493] (-) TimerEvent: {}
+[2.011076] (-) TimerEvent: {}
+[2.111649] (-) TimerEvent: {}
+[2.212244] (-) TimerEvent: {}
+[2.252081] (explore_lite) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.265597] (explore_lite) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.270964] (explore_lite) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.288855] (explore_lite) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.13 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[2.312398] (-) TimerEvent: {}
+[2.412920] (-) TimerEvent: {}
+[2.513689] (-) TimerEvent: {}
+[2.614112] (-) TimerEvent: {}
+[2.714608] (-) TimerEvent: {}
+[2.816566] (-) TimerEvent: {}
+[2.832923] (explore_lite) StdoutLine: {'line': b'-- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)\n'}
+[2.916734] (-) TimerEvent: {}
+[3.017953] (-) TimerEvent: {}
+[3.065441] (explore_lite) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[3.118659] (-) TimerEvent: {}
+[3.219346] (-) TimerEvent: {}
+[3.308561] (explore_lite) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.1.13 (/opt/ros/humble/share/nav2_costmap_2d/cmake)\n'}
+[3.319637] (-) TimerEvent: {}
+[3.421071] (-) TimerEvent: {}
+[3.522610] (-) TimerEvent: {}
+[3.623324] (-) TimerEvent: {}
+[3.723773] (-) TimerEvent: {}
+[3.824293] (-) TimerEvent: {}
+[3.925460] (-) TimerEvent: {}
+[4.025856] (-) TimerEvent: {}
+[4.126771] (-) TimerEvent: {}
+[4.227303] (-) TimerEvent: {}
+[4.327824] (-) TimerEvent: {}
+[4.428500] (-) TimerEvent: {}
+[4.529508] (-) TimerEvent: {}
+[4.630941] (-) TimerEvent: {}
+[4.731441] (-) TimerEvent: {}
+[4.831884] (-) TimerEvent: {}
+[4.932484] (-) TimerEvent: {}
+[5.033223] (-) TimerEvent: {}
+[5.135130] (-) TimerEvent: {}
+[5.235625] (-) TimerEvent: {}
+[5.336251] (-) TimerEvent: {}
+[5.436768] (-) TimerEvent: {}
+[5.537399] (-) TimerEvent: {}
+[5.638045] (-) TimerEvent: {}
+[5.739003] (-) TimerEvent: {}
+[5.839519] (-) TimerEvent: {}
+[5.942229] (-) TimerEvent: {}
+[6.042859] (-) TimerEvent: {}
+[6.144380] (-) TimerEvent: {}
+[6.244969] (-) TimerEvent: {}
+[6.261106] (explore_lite) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.345089] (-) TimerEvent: {}
+[6.394117] (explore_lite) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[6.402665] (explore_lite) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[6.446471] (-) TimerEvent: {}
+[6.547581] (-) TimerEvent: {}
+[6.649027] (-) TimerEvent: {}
+[6.749466] (-) TimerEvent: {}
+[6.850035] (-) TimerEvent: {}
+[6.950881] (-) TimerEvent: {}
+[7.051452] (-) TimerEvent: {}
+[7.152066] (-) TimerEvent: {}
+[7.252761] (-) TimerEvent: {}
+[7.354038] (-) TimerEvent: {}
+[7.455451] (-) TimerEvent: {}
+[7.552816] (explore_lite) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.553991] (explore_lite) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/feng/ros2_ws/src/m-explore-ros2/explore/include;$<BUILD_INTERFACE:/home/feng/ros2_ws/src/m-explore-ros2/explore/include>\n'}
+[7.554108] (explore_lite) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.555264] (explore_lite) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.555565] (-) TimerEvent: {}
+[7.556487] (explore_lite) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.557314] (explore_lite) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.560032] (explore_lite) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.560732] (explore_lite) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.561168] (explore_lite) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.570549] (explore_lite) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.655894] (-) TimerEvent: {}
+[7.756420] (-) TimerEvent: {}
+[7.782265] (explore_lite) StdoutLine: {'line': b'-- Generating done\n'}
+[7.790961] (explore_lite) StdoutLine: {'line': b'-- Build files have been written to: /home/feng/ros2_ws/build/explore_lite\n'}
+[7.802339] (explore_lite) CommandEnded: {'returncode': 0}
+[7.804063] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'build'}
+[7.807234] (explore_lite) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/feng/ros2_ws/build/explore_lite', '--', '-j4', '-l4'], 'cwd': '/home/feng/ros2_ws/build/explore_lite', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:easy_install command is deprecated,ignore:setup.py install is deprecated'), ('GZ_SIM_RESOURCE_PATH', '/home/feng/rosbot_ws/install/rosbot_xl_description/share:/home/feng/rosbot_ws/install/ros_components_description/share'), ('USER', 'feng'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/feng/rosbot_ws/install/velocity_controllers/lib:/home/feng/rosbot_ws/install/tricycle_steering_controller/lib:/home/feng/rosbot_ws/install/tricycle_controller/lib:/home/feng/rosbot_ws/install/bicycle_steering_controller/lib:/home/feng/rosbot_ws/install/ackermann_steering_controller/lib:/home/feng/rosbot_ws/install/steering_controllers_library/lib:/home/feng/rosbot_ws/install/rosbot_hardware_interfaces/lib:/home/feng/rosbot_ws/install/range_sensor_broadcaster/lib:/home/feng/rosbot_ws/install/position_controllers/lib:/home/feng/rosbot_ws/install/micro_ros_agent/lib:/home/feng/rosbot_ws/install/micro_ros_msgs/lib:/home/feng/rosbot_ws/install/mecanum_drive_controller/lib:/home/feng/rosbot_ws/install/admittance_controller/lib:/home/feng/rosbot_ws/install/joint_trajectory_controller/lib:/home/feng/rosbot_ws/install/joint_state_broadcaster/lib:/home/feng/rosbot_ws/install/imu_sensor_broadcaster/lib:/home/feng/rosbot_ws/install/gripper_controllers/lib:/home/feng/rosbot_ws/install/effort_controllers/lib:/home/feng/rosbot_ws/install/forward_command_controller/lib:/home/feng/rosbot_ws/install/force_torque_sensor_broadcaster/lib:/home/feng/rosbot_ws/install/diff_drive_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/feng'), ('OLDPWD', '/home/feng'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1466'), ('HUSARION_CHECKOUT_DIR', '/home/feng/aiil_workspace/humble_workspace/src/husarion'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/feng/ros2_ws/install:/home/feng/ros2_ws/src/install:/home/feng/aiil_workspace/humble_workspace/install:/home/feng/rosbot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'feng'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'feng'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/feng/rosbot_ws/install/rosbot_xl_description/share:/home/feng/rosbot_ws/install/ros_components_description/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/feng/aiil_workspace/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/feng:@/tmp/.ICE-unix/1443,unix/feng:/tmp/.ICE-unix/1443'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6111c893_1c99_428c_bf07_1d34070c9aee'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CFSBM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/feng/ros2_ws/install/tutorial_pkg:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/ros2_controllers:/home/feng/rosbot_ws/install/velocity_controllers:/home/feng/rosbot_ws/install/tricycle_steering_controller:/home/feng/rosbot_ws/install/tricycle_controller:/home/feng/rosbot_ws/install/bicycle_steering_controller:/home/feng/rosbot_ws/install/ackermann_steering_controller:/home/feng/rosbot_ws/install/steering_controllers_library:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/rosbot_xl_description:/home/feng/rosbot_ws/install/rosbot_hardware_interfaces:/home/feng/rosbot_ws/install/ros_components_description:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/home/feng/rosbot_ws/install/range_sensor_broadcaster:/home/feng/rosbot_ws/install/position_controllers:/home/feng/rosbot_ws/install/micro_ros_agent:/home/feng/rosbot_ws/install/micro_ros_msgs:/home/feng/rosbot_ws/install/mecanum_drive_controller:/home/feng/rosbot_ws/install/admittance_controller:/home/feng/rosbot_ws/install/joint_trajectory_controller:/home/feng/rosbot_ws/install/joint_state_broadcaster:/home/feng/rosbot_ws/install/imu_sensor_broadcaster:/home/feng/rosbot_ws/install/husarion_office_gz:/home/feng/rosbot_ws/install/gripper_controllers:/home/feng/rosbot_ws/install/effort_controllers:/home/feng/rosbot_ws/install/forward_command_controller:/home/feng/rosbot_ws/install/force_torque_sensor_broadcaster:/home/feng/rosbot_ws/install/diff_drive_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/feng/rosbot_ws/install/rosbot_xl_description/share:/home/feng/rosbot_ws/install/ros_components_description/share'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/feng/ros2_ws/build/explore_lite'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/feng/ros2_ws/install/navigation/lib/python3.10/site-packages:/home/feng/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/feng/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_utils/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_gazebo/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_bringup/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_controller:/home/feng/rosbot_ws/install/rosbot_xl_controller/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/ros2_controllers_test_nodes:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:/home/feng/rosbot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('AIIL_CHECKOUT_DIR', '/home/feng/aiil_workspace'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/feng/ros2_ws/install/tutorial_pkg:/home/feng/rosbot_ws/install/ros2_controllers:/home/feng/rosbot_ws/install/velocity_controllers:/home/feng/rosbot_ws/install/tricycle_steering_controller:/home/feng/rosbot_ws/install/tricycle_controller:/home/feng/rosbot_ws/install/bicycle_steering_controller:/home/feng/rosbot_ws/install/ackermann_steering_controller:/home/feng/rosbot_ws/install/steering_controllers_library:/home/feng/rosbot_ws/install/rosbot_xl:/home/feng/rosbot_ws/install/rosbot_xl_description:/home/feng/rosbot_ws/install/rosbot_hardware_interfaces:/home/feng/rosbot_ws/install/ros_components_description:/home/feng/rosbot_ws/install/range_sensor_broadcaster:/home/feng/rosbot_ws/install/position_controllers:/home/feng/rosbot_ws/install/micro_ros_agent:/home/feng/rosbot_ws/install/micro_ros_msgs:/home/feng/rosbot_ws/install/mecanum_drive_controller:/home/feng/rosbot_ws/install/admittance_controller:/home/feng/rosbot_ws/install/joint_trajectory_controller:/home/feng/rosbot_ws/install/joint_state_broadcaster:/home/feng/rosbot_ws/install/imu_sensor_broadcaster:/home/feng/rosbot_ws/install/husarion_office_gz:/home/feng/rosbot_ws/install/gripper_controllers:/home/feng/rosbot_ws/install/effort_controllers:/home/feng/rosbot_ws/install/forward_command_controller:/home/feng/rosbot_ws/install/force_torque_sensor_broadcaster:/home/feng/rosbot_ws/install/diff_drive_controller:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble')]), 'shell': False}
+[7.856633] (-) TimerEvent: {}
+[7.882898] (explore_lite) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[7.897997] (explore_lite) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[7.910838] (explore_lite) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target explore\x1b[0m\n'}
+[7.920374] (explore_lite) StdoutLine: {'line': b'[ 30%] Built target gtest_main\n'}
+[7.920555] (explore_lite) StdoutLine: {'line': b'[ 40%] Built target gtest\n'}
+[7.945951] (explore_lite) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_explore\x1b[0m\n'}
+[7.956810] (-) TimerEvent: {}
+[7.972627] (explore_lite) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o\x1b[0m\n'}
+[7.973887] (explore_lite) StdoutLine: {'line': b'[ 70%] Built target test_explore\n'}
+[8.056972] (-) TimerEvent: {}
+[8.158931] (-) TimerEvent: {}
+[8.259425] (-) TimerEvent: {}
+[8.361386] (-) TimerEvent: {}
+[8.461823] (-) TimerEvent: {}
+[8.563765] (-) TimerEvent: {}
+[8.664976] (-) TimerEvent: {}
+[8.766066] (-) TimerEvent: {}
+[8.866953] (-) TimerEvent: {}
+[8.967609] (-) TimerEvent: {}
+[9.069285] (-) TimerEvent: {}
+[9.169731] (-) TimerEvent: {}
+[9.271035] (-) TimerEvent: {}
+[9.371473] (-) TimerEvent: {}
+[9.472017] (-) TimerEvent: {}
+[9.572780] (-) TimerEvent: {}
+[9.675259] (-) TimerEvent: {}
+[9.775962] (-) TimerEvent: {}
+[9.876517] (-) TimerEvent: {}
+[9.978418] (-) TimerEvent: {}
+[10.079146] (-) TimerEvent: {}
+[10.179759] (-) TimerEvent: {}
+[10.280937] (-) TimerEvent: {}
+[10.381470] (-) TimerEvent: {}
+[10.482121] (-) TimerEvent: {}
+[10.584327] (-) TimerEvent: {}
+[10.685491] (-) TimerEvent: {}
+[10.787301] (-) TimerEvent: {}
+[10.887714] (-) TimerEvent: {}
+[10.988362] (-) TimerEvent: {}
+[11.089213] (-) TimerEvent: {}
+[11.190541] (-) TimerEvent: {}
+[11.291383] (-) TimerEvent: {}
+[11.392715] (-) TimerEvent: {}
+[11.493184] (-) TimerEvent: {}
+[11.594554] (-) TimerEvent: {}
+[11.696402] (-) TimerEvent: {}
+[11.796836] (-) TimerEvent: {}
+[11.897292] (-) TimerEvent: {}
+[11.999492] (-) TimerEvent: {}
+[12.100328] (-) TimerEvent: {}
+[12.201055] (-) TimerEvent: {}
+[12.301511] (-) TimerEvent: {}
+[12.402060] (-) TimerEvent: {}
+[12.503140] (-) TimerEvent: {}
+[12.604498] (-) TimerEvent: {}
+[12.705081] (-) TimerEvent: {}
+[12.806234] (-) TimerEvent: {}
+[12.907003] (-) TimerEvent: {}
+[13.008867] (-) TimerEvent: {}
+[13.109497] (-) TimerEvent: {}
+[13.211112] (-) TimerEvent: {}
+[13.311794] (-) TimerEvent: {}
+[13.412283] (-) TimerEvent: {}
+[13.512788] (-) TimerEvent: {}
+[13.613684] (-) TimerEvent: {}
+[13.714499] (-) TimerEvent: {}
+[13.815205] (-) TimerEvent: {}
+[13.916705] (-) TimerEvent: {}
+[14.017178] (-) TimerEvent: {}
+[14.117874] (-) TimerEvent: {}
+[14.218943] (-) TimerEvent: {}
+[14.320446] (-) TimerEvent: {}
+[14.420913] (-) TimerEvent: {}
+[14.522102] (-) TimerEvent: {}
+[14.622955] (-) TimerEvent: {}
+[14.725514] (-) TimerEvent: {}
+[14.826930] (-) TimerEvent: {}
+[14.927534] (-) TimerEvent: {}
+[15.028169] (-) TimerEvent: {}
+[15.128804] (-) TimerEvent: {}
+[15.235045] (-) TimerEvent: {}
+[15.335564] (-) TimerEvent: {}
+[15.436376] (-) TimerEvent: {}
+[15.537308] (-) TimerEvent: {}
+[15.637908] (-) TimerEvent: {}
+[15.738417] (-) TimerEvent: {}
+[15.839274] (-) TimerEvent: {}
+[15.939951] (-) TimerEvent: {}
+[16.042508] (-) TimerEvent: {}
+[16.143502] (-) TimerEvent: {}
+[16.245292] (-) TimerEvent: {}
+[16.345875] (-) TimerEvent: {}
+[16.447761] (-) TimerEvent: {}
+[16.548371] (-) TimerEvent: {}
+[16.648969] (-) TimerEvent: {}
+[16.750313] (-) TimerEvent: {}
+[16.850911] (-) TimerEvent: {}
+[16.952528] (-) TimerEvent: {}
+[17.053120] (-) TimerEvent: {}
+[17.154532] (-) TimerEvent: {}
+[17.255748] (-) TimerEvent: {}
+[17.357642] (-) TimerEvent: {}
+[17.458955] (-) TimerEvent: {}
+[17.559497] (-) TimerEvent: {}
+[17.662167] (-) TimerEvent: {}
+[17.762928] (-) TimerEvent: {}
+[17.869579] (-) TimerEvent: {}
+[17.972850] (-) TimerEvent: {}
+[18.073931] (-) TimerEvent: {}
+[18.176033] (-) TimerEvent: {}
+[18.276580] (-) TimerEvent: {}
+[18.377103] (-) TimerEvent: {}
+[18.479026] (-) TimerEvent: {}
+[18.579513] (-) TimerEvent: {}
+[18.680175] (-) TimerEvent: {}
+[18.780737] (-) TimerEvent: {}
+[18.881267] (-) TimerEvent: {}
+[18.981878] (-) TimerEvent: {}
+[19.082605] (-) TimerEvent: {}
+[19.184094] (-) TimerEvent: {}
+[19.285159] (-) TimerEvent: {}
+[19.387007] (-) TimerEvent: {}
+[19.487424] (-) TimerEvent: {}
+[19.587788] (-) TimerEvent: {}
+[19.688191] (-) TimerEvent: {}
+[19.788840] (-) TimerEvent: {}
+[19.889797] (-) TimerEvent: {}
+[19.990417] (-) TimerEvent: {}
+[20.091704] (-) TimerEvent: {}
+[20.192285] (-) TimerEvent: {}
+[20.292713] (-) TimerEvent: {}
+[20.393246] (-) TimerEvent: {}
+[20.493793] (-) TimerEvent: {}
+[20.594404] (-) TimerEvent: {}
+[20.695655] (-) TimerEvent: {}
+[20.796193] (-) TimerEvent: {}
+[20.896710] (-) TimerEvent: {}
+[20.997260] (-) TimerEvent: {}
+[21.097972] (-) TimerEvent: {}
+[21.198672] (-) TimerEvent: {}
+[21.299442] (-) TimerEvent: {}
+[21.399921] (-) TimerEvent: {}
+[21.501576] (-) TimerEvent: {}
+[21.602492] (-) TimerEvent: {}
+[21.703134] (-) TimerEvent: {}
+[21.804071] (-) TimerEvent: {}
+[21.904691] (-) TimerEvent: {}
+[22.005244] (-) TimerEvent: {}
+[22.106761] (-) TimerEvent: {}
+[22.207218] (-) TimerEvent: {}
+[22.307680] (-) TimerEvent: {}
+[22.408458] (-) TimerEvent: {}
+[22.510963] (-) TimerEvent: {}
+[22.611951] (-) TimerEvent: {}
+[22.712484] (-) TimerEvent: {}
+[22.813172] (-) TimerEvent: {}
+[22.913901] (-) TimerEvent: {}
+[23.015138] (-) TimerEvent: {}
+[23.117315] (-) TimerEvent: {}
+[23.218472] (-) TimerEvent: {}
+[23.319599] (-) TimerEvent: {}
+[23.420075] (-) TimerEvent: {}
+[23.521426] (-) TimerEvent: {}
+[23.623474] (-) TimerEvent: {}
+[23.725863] (-) TimerEvent: {}
+[23.826545] (-) TimerEvent: {}
+[23.927322] (-) TimerEvent: {}
+[24.027886] (-) TimerEvent: {}
+[24.128403] (-) TimerEvent: {}
+[24.228863] (-) TimerEvent: {}
+[24.329471] (-) TimerEvent: {}
+[24.430450] (-) TimerEvent: {}
+[24.531372] (-) TimerEvent: {}
+[24.632012] (-) TimerEvent: {}
+[24.732609] (-) TimerEvent: {}
+[24.835274] (-) TimerEvent: {}
+[24.936271] (-) TimerEvent: {}
+[25.036959] (-) TimerEvent: {}
+[25.138130] (-) TimerEvent: {}
+[25.238923] (-) TimerEvent: {}
+[25.340825] (-) TimerEvent: {}
+[25.442312] (-) TimerEvent: {}
+[25.543034] (-) TimerEvent: {}
+[25.643612] (-) TimerEvent: {}
+[25.745730] (-) TimerEvent: {}
+[25.847412] (-) TimerEvent: {}
+[25.868595] (explore_lite) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable explore\x1b[0m\n'}
+[25.947654] (-) TimerEvent: {}
+[26.048365] (-) TimerEvent: {}
+[26.149719] (-) TimerEvent: {}
+[26.251579] (-) TimerEvent: {}
+[26.353584] (-) TimerEvent: {}
+[26.454052] (-) TimerEvent: {}
+[26.555783] (-) TimerEvent: {}
+[26.656263] (-) TimerEvent: {}
+[26.756805] (-) TimerEvent: {}
+[26.857363] (-) TimerEvent: {}
+[26.958504] (-) TimerEvent: {}
+[27.059708] (-) TimerEvent: {}
+[27.161316] (-) TimerEvent: {}
+[27.261830] (-) TimerEvent: {}
+[27.362362] (-) TimerEvent: {}
+[27.463753] (-) TimerEvent: {}
+[27.564216] (-) TimerEvent: {}
+[27.666283] (-) TimerEvent: {}
+[27.766961] (-) TimerEvent: {}
+[27.867879] (-) TimerEvent: {}
+[27.969129] (-) TimerEvent: {}
+[28.069669] (-) TimerEvent: {}
+[28.171345] (-) TimerEvent: {}
+[28.272932] (-) TimerEvent: {}
+[28.374676] (-) TimerEvent: {}
+[28.475222] (-) TimerEvent: {}
+[28.575592] (-) TimerEvent: {}
+[28.676006] (-) TimerEvent: {}
+[28.778482] (-) TimerEvent: {}
+[28.879552] (-) TimerEvent: {}
+[28.980274] (-) TimerEvent: {}
+[29.087027] (-) TimerEvent: {}
+[29.187467] (-) TimerEvent: {}
+[29.288281] (-) TimerEvent: {}
+[29.389176] (-) TimerEvent: {}
+[29.490904] (-) TimerEvent: {}
+[29.591278] (-) TimerEvent: {}
+[29.692596] (-) TimerEvent: {}
+[29.793017] (-) TimerEvent: {}
+[29.895390] (-) TimerEvent: {}
+[29.995851] (-) TimerEvent: {}
+[30.096332] (-) TimerEvent: {}
+[30.196857] (-) TimerEvent: {}
+[30.298160] (-) TimerEvent: {}
+[30.359744] (explore_lite) StdoutLine: {'line': b'[100%] Built target explore\n'}
+[30.396689] (explore_lite) CommandEnded: {'returncode': 0}
+[30.400253] (-) TimerEvent: {}
+[30.471893] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'install'}
+[30.487192] (explore_lite) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/feng/ros2_ws/build/explore_lite'], 'cwd': '/home/feng/ros2_ws/build/explore_lite', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:easy_install command is deprecated,ignore:setup.py install is deprecated'), ('GZ_SIM_RESOURCE_PATH', '/home/feng/rosbot_ws/install/rosbot_xl_description/share:/home/feng/rosbot_ws/install/ros_components_description/share'), ('USER', 'feng'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/feng/rosbot_ws/install/velocity_controllers/lib:/home/feng/rosbot_ws/install/tricycle_steering_controller/lib:/home/feng/rosbot_ws/install/tricycle_controller/lib:/home/feng/rosbot_ws/install/bicycle_steering_controller/lib:/home/feng/rosbot_ws/install/ackermann_steering_controller/lib:/home/feng/rosbot_ws/install/steering_controllers_library/lib:/home/feng/rosbot_ws/install/rosbot_hardware_interfaces/lib:/home/feng/rosbot_ws/install/range_sensor_broadcaster/lib:/home/feng/rosbot_ws/install/position_controllers/lib:/home/feng/rosbot_ws/install/micro_ros_agent/lib:/home/feng/rosbot_ws/install/micro_ros_msgs/lib:/home/feng/rosbot_ws/install/mecanum_drive_controller/lib:/home/feng/rosbot_ws/install/admittance_controller/lib:/home/feng/rosbot_ws/install/joint_trajectory_controller/lib:/home/feng/rosbot_ws/install/joint_state_broadcaster/lib:/home/feng/rosbot_ws/install/imu_sensor_broadcaster/lib:/home/feng/rosbot_ws/install/gripper_controllers/lib:/home/feng/rosbot_ws/install/effort_controllers/lib:/home/feng/rosbot_ws/install/forward_command_controller/lib:/home/feng/rosbot_ws/install/force_torque_sensor_broadcaster/lib:/home/feng/rosbot_ws/install/diff_drive_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/feng'), ('OLDPWD', '/home/feng'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1466'), ('HUSARION_CHECKOUT_DIR', '/home/feng/aiil_workspace/humble_workspace/src/husarion'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/feng/ros2_ws/install:/home/feng/ros2_ws/src/install:/home/feng/aiil_workspace/humble_workspace/install:/home/feng/rosbot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'feng'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'feng'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/feng/rosbot_ws/install/rosbot_xl_description/share:/home/feng/rosbot_ws/install/ros_components_description/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/feng/aiil_workspace/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/feng:@/tmp/.ICE-unix/1443,unix/feng:/tmp/.ICE-unix/1443'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6111c893_1c99_428c_bf07_1d34070c9aee'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CFSBM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/feng/ros2_ws/install/tutorial_pkg:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/ros2_controllers:/home/feng/rosbot_ws/install/velocity_controllers:/home/feng/rosbot_ws/install/tricycle_steering_controller:/home/feng/rosbot_ws/install/tricycle_controller:/home/feng/rosbot_ws/install/bicycle_steering_controller:/home/feng/rosbot_ws/install/ackermann_steering_controller:/home/feng/rosbot_ws/install/steering_controllers_library:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/rosbot_xl_description:/home/feng/rosbot_ws/install/rosbot_hardware_interfaces:/home/feng/rosbot_ws/install/ros_components_description:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/home/feng/rosbot_ws/install/range_sensor_broadcaster:/home/feng/rosbot_ws/install/position_controllers:/home/feng/rosbot_ws/install/micro_ros_agent:/home/feng/rosbot_ws/install/micro_ros_msgs:/home/feng/rosbot_ws/install/mecanum_drive_controller:/home/feng/rosbot_ws/install/admittance_controller:/home/feng/rosbot_ws/install/joint_trajectory_controller:/home/feng/rosbot_ws/install/joint_state_broadcaster:/home/feng/rosbot_ws/install/imu_sensor_broadcaster:/home/feng/rosbot_ws/install/husarion_office_gz:/home/feng/rosbot_ws/install/gripper_controllers:/home/feng/rosbot_ws/install/effort_controllers:/home/feng/rosbot_ws/install/forward_command_controller:/home/feng/rosbot_ws/install/force_torque_sensor_broadcaster:/home/feng/rosbot_ws/install/diff_drive_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/feng/rosbot_ws/install/rosbot_xl_description/share:/home/feng/rosbot_ws/install/ros_components_description/share'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/feng/ros2_ws/build/explore_lite'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/feng/ros2_ws/install/navigation/lib/python3.10/site-packages:/home/feng/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/feng/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_utils/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_gazebo/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_bringup/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_controller:/home/feng/rosbot_ws/install/rosbot_xl_controller/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/ros2_controllers_test_nodes:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:/home/feng/rosbot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('AIIL_CHECKOUT_DIR', '/home/feng/aiil_workspace'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/feng/ros2_ws/install/tutorial_pkg:/home/feng/rosbot_ws/install/ros2_controllers:/home/feng/rosbot_ws/install/velocity_controllers:/home/feng/rosbot_ws/install/tricycle_steering_controller:/home/feng/rosbot_ws/install/tricycle_controller:/home/feng/rosbot_ws/install/bicycle_steering_controller:/home/feng/rosbot_ws/install/ackermann_steering_controller:/home/feng/rosbot_ws/install/steering_controllers_library:/home/feng/rosbot_ws/install/rosbot_xl:/home/feng/rosbot_ws/install/rosbot_xl_description:/home/feng/rosbot_ws/install/rosbot_hardware_interfaces:/home/feng/rosbot_ws/install/ros_components_description:/home/feng/rosbot_ws/install/range_sensor_broadcaster:/home/feng/rosbot_ws/install/position_controllers:/home/feng/rosbot_ws/install/micro_ros_agent:/home/feng/rosbot_ws/install/micro_ros_msgs:/home/feng/rosbot_ws/install/mecanum_drive_controller:/home/feng/rosbot_ws/install/admittance_controller:/home/feng/rosbot_ws/install/joint_trajectory_controller:/home/feng/rosbot_ws/install/joint_state_broadcaster:/home/feng/rosbot_ws/install/imu_sensor_broadcaster:/home/feng/rosbot_ws/install/husarion_office_gz:/home/feng/rosbot_ws/install/gripper_controllers:/home/feng/rosbot_ws/install/effort_controllers:/home/feng/rosbot_ws/install/forward_command_controller:/home/feng/rosbot_ws/install/force_torque_sensor_broadcaster:/home/feng/rosbot_ws/install/diff_drive_controller:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble')]), 'shell': False}
+[30.500495] (-) TimerEvent: {}
+[30.500980] (explore_lite) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.501588] (explore_lite) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[30.503536] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/include/explore//costmap_client.h\n'}
+[30.515329] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/include/explore//costmap_tools.h\n'}
+[30.526611] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/include/explore//explore.h\n'}
+[30.551157] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/include/explore//frontier_search.h\n'}
+[30.569554] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/config/params.yaml\n'}
+[30.585938] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/config/params_costmap.yaml\n'}
+[30.599761] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/launch/explore.launch.py\n'}
+[30.600594] (-) TimerEvent: {}
+[30.613880] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/lib/explore_lite/explore\n'}
+[30.626020] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite\n'}
+[30.650264] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite\n'}
+[30.665838] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh\n'}
+[30.679248] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv\n'}
+[30.695587] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/environment/path.sh\n'}
+[30.700743] (-) TimerEvent: {}
+[30.711179] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/environment/path.dsv\n'}
+[30.725709] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/local_setup.bash\n'}
+[30.739254] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/local_setup.sh\n'}
+[30.752950] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/local_setup.zsh\n'}
+[30.767132] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/local_setup.dsv\n'}
+[30.778106] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/package.dsv\n'}
+[30.797340] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/share/ament_index/resource_index/packages/explore_lite\n'}
+[30.800849] (-) TimerEvent: {}
+[30.809590] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[30.821422] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake\n'}
+[30.839982] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake\n'}
+[30.856619] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/package.xml\n'}
+[30.873210] (explore_lite) CommandEnded: {'returncode': 0}
+[30.901473] (-) TimerEvent: {}
+[31.003250] (explore_lite) JobEnded: {'identifier': 'explore_lite', 'rc': 0}
+[31.005379] (-) TimerEvent: {}
+[31.007966] (tutorial_pkg) JobStarted: {'identifier': 'tutorial_pkg'}
+[31.059383] (tutorial_pkg) JobProgress: {'identifier': 'tutorial_pkg', 'progress': 'cmake'}
+[31.062318] (tutorial_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/feng/ros2_ws/src/tutorial_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/feng/ros2_ws/install/tutorial_pkg'], 'cwd': '/home/feng/ros2_ws/build/tutorial_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:easy_install command is deprecated,ignore:setup.py install is deprecated'), ('GZ_SIM_RESOURCE_PATH', '/home/feng/rosbot_ws/install/rosbot_xl_description/share:/home/feng/rosbot_ws/install/ros_components_description/share'), ('USER', 'feng'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/feng/rosbot_ws/install/velocity_controllers/lib:/home/feng/rosbot_ws/install/tricycle_steering_controller/lib:/home/feng/rosbot_ws/install/tricycle_controller/lib:/home/feng/rosbot_ws/install/bicycle_steering_controller/lib:/home/feng/rosbot_ws/install/ackermann_steering_controller/lib:/home/feng/rosbot_ws/install/steering_controllers_library/lib:/home/feng/rosbot_ws/install/rosbot_hardware_interfaces/lib:/home/feng/rosbot_ws/install/range_sensor_broadcaster/lib:/home/feng/rosbot_ws/install/position_controllers/lib:/home/feng/rosbot_ws/install/micro_ros_agent/lib:/home/feng/rosbot_ws/install/micro_ros_msgs/lib:/home/feng/rosbot_ws/install/mecanum_drive_controller/lib:/home/feng/rosbot_ws/install/admittance_controller/lib:/home/feng/rosbot_ws/install/joint_trajectory_controller/lib:/home/feng/rosbot_ws/install/joint_state_broadcaster/lib:/home/feng/rosbot_ws/install/imu_sensor_broadcaster/lib:/home/feng/rosbot_ws/install/gripper_controllers/lib:/home/feng/rosbot_ws/install/effort_controllers/lib:/home/feng/rosbot_ws/install/forward_command_controller/lib:/home/feng/rosbot_ws/install/force_torque_sensor_broadcaster/lib:/home/feng/rosbot_ws/install/diff_drive_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/feng'), ('OLDPWD', '/home/feng'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1466'), ('HUSARION_CHECKOUT_DIR', '/home/feng/aiil_workspace/humble_workspace/src/husarion'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/feng/ros2_ws/install:/home/feng/ros2_ws/src/install:/home/feng/aiil_workspace/humble_workspace/install:/home/feng/rosbot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'feng'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'feng'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/feng/rosbot_ws/install/rosbot_xl_description/share:/home/feng/rosbot_ws/install/ros_components_description/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/feng/aiil_workspace/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/feng:@/tmp/.ICE-unix/1443,unix/feng:/tmp/.ICE-unix/1443'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6111c893_1c99_428c_bf07_1d34070c9aee'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CFSBM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/feng/ros2_ws/install/explore_lite:/home/feng/ros2_ws/install/tutorial_pkg:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/ros2_controllers:/home/feng/rosbot_ws/install/velocity_controllers:/home/feng/rosbot_ws/install/tricycle_steering_controller:/home/feng/rosbot_ws/install/tricycle_controller:/home/feng/rosbot_ws/install/bicycle_steering_controller:/home/feng/rosbot_ws/install/ackermann_steering_controller:/home/feng/rosbot_ws/install/steering_controllers_library:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/rosbot_xl_description:/home/feng/rosbot_ws/install/rosbot_hardware_interfaces:/home/feng/rosbot_ws/install/ros_components_description:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/home/feng/rosbot_ws/install/range_sensor_broadcaster:/home/feng/rosbot_ws/install/position_controllers:/home/feng/rosbot_ws/install/micro_ros_agent:/home/feng/rosbot_ws/install/micro_ros_msgs:/home/feng/rosbot_ws/install/mecanum_drive_controller:/home/feng/rosbot_ws/install/admittance_controller:/home/feng/rosbot_ws/install/joint_trajectory_controller:/home/feng/rosbot_ws/install/joint_state_broadcaster:/home/feng/rosbot_ws/install/imu_sensor_broadcaster:/home/feng/rosbot_ws/install/husarion_office_gz:/home/feng/rosbot_ws/install/gripper_controllers:/home/feng/rosbot_ws/install/effort_controllers:/home/feng/rosbot_ws/install/forward_command_controller:/home/feng/rosbot_ws/install/force_torque_sensor_broadcaster:/home/feng/rosbot_ws/install/diff_drive_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/feng/rosbot_ws/install/rosbot_xl_description/share:/home/feng/rosbot_ws/install/ros_components_description/share'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/feng/ros2_ws/build/tutorial_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/feng/ros2_ws/install/navigation/lib/python3.10/site-packages:/home/feng/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/feng/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_utils/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_gazebo/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_bringup/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_controller:/home/feng/rosbot_ws/install/rosbot_xl_controller/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/ros2_controllers_test_nodes:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:/home/feng/rosbot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('AIIL_CHECKOUT_DIR', '/home/feng/aiil_workspace'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/feng/ros2_ws/install/explore_lite:/home/feng/ros2_ws/install/tutorial_pkg:/home/feng/rosbot_ws/install/ros2_controllers:/home/feng/rosbot_ws/install/velocity_controllers:/home/feng/rosbot_ws/install/tricycle_steering_controller:/home/feng/rosbot_ws/install/tricycle_controller:/home/feng/rosbot_ws/install/bicycle_steering_controller:/home/feng/rosbot_ws/install/ackermann_steering_controller:/home/feng/rosbot_ws/install/steering_controllers_library:/home/feng/rosbot_ws/install/rosbot_xl:/home/feng/rosbot_ws/install/rosbot_xl_description:/home/feng/rosbot_ws/install/rosbot_hardware_interfaces:/home/feng/rosbot_ws/install/ros_components_description:/home/feng/rosbot_ws/install/range_sensor_broadcaster:/home/feng/rosbot_ws/install/position_controllers:/home/feng/rosbot_ws/install/micro_ros_agent:/home/feng/rosbot_ws/install/micro_ros_msgs:/home/feng/rosbot_ws/install/mecanum_drive_controller:/home/feng/rosbot_ws/install/admittance_controller:/home/feng/rosbot_ws/install/joint_trajectory_controller:/home/feng/rosbot_ws/install/joint_state_broadcaster:/home/feng/rosbot_ws/install/imu_sensor_broadcaster:/home/feng/rosbot_ws/install/husarion_office_gz:/home/feng/rosbot_ws/install/gripper_controllers:/home/feng/rosbot_ws/install/effort_controllers:/home/feng/rosbot_ws/install/forward_command_controller:/home/feng/rosbot_ws/install/force_torque_sensor_broadcaster:/home/feng/rosbot_ws/install/diff_drive_controller:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble')]), 'shell': False}
+[31.105512] (-) TimerEvent: {}
+[31.118905] (tutorial_pkg) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[31.205664] (-) TimerEvent: {}
+[31.307340] (-) TimerEvent: {}
+[31.369234] (tutorial_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[31.407636] (-) TimerEvent: {}
+[31.450520] (tutorial_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[31.456176] (tutorial_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[31.466495] (tutorial_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[31.492293] (tutorial_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[31.507766] (-) TimerEvent: {}
+[31.524490] (tutorial_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[31.607934] (-) TimerEvent: {}
+[31.708453] (-) TimerEvent: {}
+[31.809035] (-) TimerEvent: {}
+[31.909705] (-) TimerEvent: {}
+[32.010944] (-) TimerEvent: {}
+[32.013381] (tutorial_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[32.111055] (-) TimerEvent: {}
+[32.118870] (tutorial_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[32.127812] (tutorial_pkg) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[32.193331] (tutorial_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[32.211262] (-) TimerEvent: {}
+[32.311667] (-) TimerEvent: {}
+[32.413188] (-) TimerEvent: {}
+[32.457569] (tutorial_pkg) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[32.488411] (tutorial_pkg) StdoutLine: {'line': b'-- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)\n'}
+[32.505739] (tutorial_pkg) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[32.513896] (-) TimerEvent: {}
+[32.614500] (-) TimerEvent: {}
+[32.715687] (-) TimerEvent: {}
+[32.816226] (-) TimerEvent: {}
+[32.916684] (-) TimerEvent: {}
+[33.017071] (-) TimerEvent: {}
+[33.117538] (-) TimerEvent: {}
+[33.218073] (-) TimerEvent: {}
+[33.318957] (-) TimerEvent: {}
+[33.343880] (tutorial_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[33.407728] (tutorial_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[33.412336] (tutorial_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/feng/ros2_ws/build/tutorial_pkg\n'}
+[33.419431] (-) TimerEvent: {}
+[33.425343] (tutorial_pkg) CommandEnded: {'returncode': 0}
+[33.428566] (tutorial_pkg) JobProgress: {'identifier': 'tutorial_pkg', 'progress': 'build'}
+[33.428628] (tutorial_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/feng/ros2_ws/build/tutorial_pkg', '--', '-j4', '-l4'], 'cwd': '/home/feng/ros2_ws/build/tutorial_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:easy_install command is deprecated,ignore:setup.py install is deprecated'), ('GZ_SIM_RESOURCE_PATH', '/home/feng/rosbot_ws/install/rosbot_xl_description/share:/home/feng/rosbot_ws/install/ros_components_description/share'), ('USER', 'feng'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/feng/rosbot_ws/install/velocity_controllers/lib:/home/feng/rosbot_ws/install/tricycle_steering_controller/lib:/home/feng/rosbot_ws/install/tricycle_controller/lib:/home/feng/rosbot_ws/install/bicycle_steering_controller/lib:/home/feng/rosbot_ws/install/ackermann_steering_controller/lib:/home/feng/rosbot_ws/install/steering_controllers_library/lib:/home/feng/rosbot_ws/install/rosbot_hardware_interfaces/lib:/home/feng/rosbot_ws/install/range_sensor_broadcaster/lib:/home/feng/rosbot_ws/install/position_controllers/lib:/home/feng/rosbot_ws/install/micro_ros_agent/lib:/home/feng/rosbot_ws/install/micro_ros_msgs/lib:/home/feng/rosbot_ws/install/mecanum_drive_controller/lib:/home/feng/rosbot_ws/install/admittance_controller/lib:/home/feng/rosbot_ws/install/joint_trajectory_controller/lib:/home/feng/rosbot_ws/install/joint_state_broadcaster/lib:/home/feng/rosbot_ws/install/imu_sensor_broadcaster/lib:/home/feng/rosbot_ws/install/gripper_controllers/lib:/home/feng/rosbot_ws/install/effort_controllers/lib:/home/feng/rosbot_ws/install/forward_command_controller/lib:/home/feng/rosbot_ws/install/force_torque_sensor_broadcaster/lib:/home/feng/rosbot_ws/install/diff_drive_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/feng'), ('OLDPWD', '/home/feng'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1466'), ('HUSARION_CHECKOUT_DIR', '/home/feng/aiil_workspace/humble_workspace/src/husarion'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/feng/ros2_ws/install:/home/feng/ros2_ws/src/install:/home/feng/aiil_workspace/humble_workspace/install:/home/feng/rosbot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'feng'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'feng'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/feng/rosbot_ws/install/rosbot_xl_description/share:/home/feng/rosbot_ws/install/ros_components_description/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/feng/aiil_workspace/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/feng:@/tmp/.ICE-unix/1443,unix/feng:/tmp/.ICE-unix/1443'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6111c893_1c99_428c_bf07_1d34070c9aee'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CFSBM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/feng/ros2_ws/install/explore_lite:/home/feng/ros2_ws/install/tutorial_pkg:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/ros2_controllers:/home/feng/rosbot_ws/install/velocity_controllers:/home/feng/rosbot_ws/install/tricycle_steering_controller:/home/feng/rosbot_ws/install/tricycle_controller:/home/feng/rosbot_ws/install/bicycle_steering_controller:/home/feng/rosbot_ws/install/ackermann_steering_controller:/home/feng/rosbot_ws/install/steering_controllers_library:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/rosbot_xl_description:/home/feng/rosbot_ws/install/rosbot_hardware_interfaces:/home/feng/rosbot_ws/install/ros_components_description:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/home/feng/rosbot_ws/install/range_sensor_broadcaster:/home/feng/rosbot_ws/install/position_controllers:/home/feng/rosbot_ws/install/micro_ros_agent:/home/feng/rosbot_ws/install/micro_ros_msgs:/home/feng/rosbot_ws/install/mecanum_drive_controller:/home/feng/rosbot_ws/install/admittance_controller:/home/feng/rosbot_ws/install/joint_trajectory_controller:/home/feng/rosbot_ws/install/joint_state_broadcaster:/home/feng/rosbot_ws/install/imu_sensor_broadcaster:/home/feng/rosbot_ws/install/husarion_office_gz:/home/feng/rosbot_ws/install/gripper_controllers:/home/feng/rosbot_ws/install/effort_controllers:/home/feng/rosbot_ws/install/forward_command_controller:/home/feng/rosbot_ws/install/force_torque_sensor_broadcaster:/home/feng/rosbot_ws/install/diff_drive_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/feng/rosbot_ws/install/rosbot_xl_description/share:/home/feng/rosbot_ws/install/ros_components_description/share'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/feng/ros2_ws/build/tutorial_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/feng/ros2_ws/install/navigation/lib/python3.10/site-packages:/home/feng/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/feng/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_utils/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_gazebo/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_bringup/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_controller:/home/feng/rosbot_ws/install/rosbot_xl_controller/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/ros2_controllers_test_nodes:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:/home/feng/rosbot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('AIIL_CHECKOUT_DIR', '/home/feng/aiil_workspace'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/feng/ros2_ws/install/explore_lite:/home/feng/ros2_ws/install/tutorial_pkg:/home/feng/rosbot_ws/install/ros2_controllers:/home/feng/rosbot_ws/install/velocity_controllers:/home/feng/rosbot_ws/install/tricycle_steering_controller:/home/feng/rosbot_ws/install/tricycle_controller:/home/feng/rosbot_ws/install/bicycle_steering_controller:/home/feng/rosbot_ws/install/ackermann_steering_controller:/home/feng/rosbot_ws/install/steering_controllers_library:/home/feng/rosbot_ws/install/rosbot_xl:/home/feng/rosbot_ws/install/rosbot_xl_description:/home/feng/rosbot_ws/install/rosbot_hardware_interfaces:/home/feng/rosbot_ws/install/ros_components_description:/home/feng/rosbot_ws/install/range_sensor_broadcaster:/home/feng/rosbot_ws/install/position_controllers:/home/feng/rosbot_ws/install/micro_ros_agent:/home/feng/rosbot_ws/install/micro_ros_msgs:/home/feng/rosbot_ws/install/mecanum_drive_controller:/home/feng/rosbot_ws/install/admittance_controller:/home/feng/rosbot_ws/install/joint_trajectory_controller:/home/feng/rosbot_ws/install/joint_state_broadcaster:/home/feng/rosbot_ws/install/imu_sensor_broadcaster:/home/feng/rosbot_ws/install/husarion_office_gz:/home/feng/rosbot_ws/install/gripper_controllers:/home/feng/rosbot_ws/install/effort_controllers:/home/feng/rosbot_ws/install/forward_command_controller:/home/feng/rosbot_ws/install/force_torque_sensor_broadcaster:/home/feng/rosbot_ws/install/diff_drive_controller:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble')]), 'shell': False}
+[33.519592] (-) TimerEvent: {}
+[33.522390] (tutorial_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tf_broadcaster\x1b[0m\n'}
+[33.526441] (tutorial_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tracker\x1b[0m\n'}
+[33.534651] (tutorial_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_node\x1b[0m\n'}
+[33.535927] (tutorial_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tf_listener\x1b[0m\n'}
+[33.577502] (tutorial_pkg) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX executable my_first_node\x1b[0m\n'}
+[33.598925] (tutorial_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX executable tracker\x1b[0m\n'}
+[33.599196] (tutorial_pkg) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX executable tf_broadcaster\x1b[0m\n'}
+[33.601841] (tutorial_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable tf_listener\x1b[0m\n'}
+[33.619730] (-) TimerEvent: {}
+[33.720221] (-) TimerEvent: {}
+[33.824704] (-) TimerEvent: {}
+[33.925340] (-) TimerEvent: {}
+[34.028090] (-) TimerEvent: {}
+[34.087305] (tutorial_pkg) StdoutLine: {'line': b'[ 62%] Built target tf_listener\n'}
+[34.128265] (-) TimerEvent: {}
+[34.228923] (-) TimerEvent: {}
+[34.255457] (tutorial_pkg) StdoutLine: {'line': b'[ 75%] Built target tf_broadcaster\n'}
+[34.329138] (-) TimerEvent: {}
+[34.429588] (-) TimerEvent: {}
+[34.530037] (-) TimerEvent: {}
+[34.630934] (-) TimerEvent: {}
+[34.733063] (-) TimerEvent: {}
+[34.833480] (-) TimerEvent: {}
+[34.920416] (tutorial_pkg) StdoutLine: {'line': b'[ 87%] Built target my_first_node\n'}
+[34.935194] (-) TimerEvent: {}
+[35.035740] (-) TimerEvent: {}
+[35.136316] (-) TimerEvent: {}
+[35.236872] (-) TimerEvent: {}
+[35.337670] (-) TimerEvent: {}
+[35.438425] (-) TimerEvent: {}
+[35.539496] (-) TimerEvent: {}
+[35.640328] (-) TimerEvent: {}
+[35.740879] (-) TimerEvent: {}
+[35.836542] (tutorial_pkg) StdoutLine: {'line': b'[100%] Built target tracker\n'}
+[35.841153] (-) TimerEvent: {}
+[35.852776] (tutorial_pkg) CommandEnded: {'returncode': 0}
+[35.945952] (tutorial_pkg) JobProgress: {'identifier': 'tutorial_pkg', 'progress': 'install'}
+[35.946113] (-) TimerEvent: {}
+[35.946381] (tutorial_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/feng/ros2_ws/build/tutorial_pkg'], 'cwd': '/home/feng/ros2_ws/build/tutorial_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:easy_install command is deprecated,ignore:setup.py install is deprecated'), ('GZ_SIM_RESOURCE_PATH', '/home/feng/rosbot_ws/install/rosbot_xl_description/share:/home/feng/rosbot_ws/install/ros_components_description/share'), ('USER', 'feng'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/feng/rosbot_ws/install/velocity_controllers/lib:/home/feng/rosbot_ws/install/tricycle_steering_controller/lib:/home/feng/rosbot_ws/install/tricycle_controller/lib:/home/feng/rosbot_ws/install/bicycle_steering_controller/lib:/home/feng/rosbot_ws/install/ackermann_steering_controller/lib:/home/feng/rosbot_ws/install/steering_controllers_library/lib:/home/feng/rosbot_ws/install/rosbot_hardware_interfaces/lib:/home/feng/rosbot_ws/install/range_sensor_broadcaster/lib:/home/feng/rosbot_ws/install/position_controllers/lib:/home/feng/rosbot_ws/install/micro_ros_agent/lib:/home/feng/rosbot_ws/install/micro_ros_msgs/lib:/home/feng/rosbot_ws/install/mecanum_drive_controller/lib:/home/feng/rosbot_ws/install/admittance_controller/lib:/home/feng/rosbot_ws/install/joint_trajectory_controller/lib:/home/feng/rosbot_ws/install/joint_state_broadcaster/lib:/home/feng/rosbot_ws/install/imu_sensor_broadcaster/lib:/home/feng/rosbot_ws/install/gripper_controllers/lib:/home/feng/rosbot_ws/install/effort_controllers/lib:/home/feng/rosbot_ws/install/forward_command_controller/lib:/home/feng/rosbot_ws/install/force_torque_sensor_broadcaster/lib:/home/feng/rosbot_ws/install/diff_drive_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/feng'), ('OLDPWD', '/home/feng'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1466'), ('HUSARION_CHECKOUT_DIR', '/home/feng/aiil_workspace/humble_workspace/src/husarion'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/feng/ros2_ws/install:/home/feng/ros2_ws/src/install:/home/feng/aiil_workspace/humble_workspace/install:/home/feng/rosbot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'feng'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'feng'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/feng/rosbot_ws/install/rosbot_xl_description/share:/home/feng/rosbot_ws/install/ros_components_description/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/feng/aiil_workspace/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/feng:@/tmp/.ICE-unix/1443,unix/feng:/tmp/.ICE-unix/1443'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6111c893_1c99_428c_bf07_1d34070c9aee'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CFSBM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/feng/ros2_ws/install/explore_lite:/home/feng/ros2_ws/install/tutorial_pkg:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/ros2_controllers:/home/feng/rosbot_ws/install/velocity_controllers:/home/feng/rosbot_ws/install/tricycle_steering_controller:/home/feng/rosbot_ws/install/tricycle_controller:/home/feng/rosbot_ws/install/bicycle_steering_controller:/home/feng/rosbot_ws/install/ackermann_steering_controller:/home/feng/rosbot_ws/install/steering_controllers_library:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/rosbot_xl_description:/home/feng/rosbot_ws/install/rosbot_hardware_interfaces:/home/feng/rosbot_ws/install/ros_components_description:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/home/feng/rosbot_ws/install/range_sensor_broadcaster:/home/feng/rosbot_ws/install/position_controllers:/home/feng/rosbot_ws/install/micro_ros_agent:/home/feng/rosbot_ws/install/micro_ros_msgs:/home/feng/rosbot_ws/install/mecanum_drive_controller:/home/feng/rosbot_ws/install/admittance_controller:/home/feng/rosbot_ws/install/joint_trajectory_controller:/home/feng/rosbot_ws/install/joint_state_broadcaster:/home/feng/rosbot_ws/install/imu_sensor_broadcaster:/home/feng/rosbot_ws/install/husarion_office_gz:/home/feng/rosbot_ws/install/gripper_controllers:/home/feng/rosbot_ws/install/effort_controllers:/home/feng/rosbot_ws/install/forward_command_controller:/home/feng/rosbot_ws/install/force_torque_sensor_broadcaster:/home/feng/rosbot_ws/install/diff_drive_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/feng/rosbot_ws/install/rosbot_xl_description/share:/home/feng/rosbot_ws/install/ros_components_description/share'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/feng/ros2_ws/build/tutorial_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/feng/ros2_ws/install/navigation/lib/python3.10/site-packages:/home/feng/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/feng/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_utils/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_gazebo/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_bringup/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/rosbot_xl_controller:/home/feng/rosbot_ws/install/rosbot_xl_controller/lib/python3.10/site-packages:/home/feng/rosbot_ws/build/ros2_controllers_test_nodes:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:/home/feng/rosbot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('AIIL_CHECKOUT_DIR', '/home/feng/aiil_workspace'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/feng/ros2_ws/install/explore_lite:/home/feng/ros2_ws/install/tutorial_pkg:/home/feng/rosbot_ws/install/ros2_controllers:/home/feng/rosbot_ws/install/velocity_controllers:/home/feng/rosbot_ws/install/tricycle_steering_controller:/home/feng/rosbot_ws/install/tricycle_controller:/home/feng/rosbot_ws/install/bicycle_steering_controller:/home/feng/rosbot_ws/install/ackermann_steering_controller:/home/feng/rosbot_ws/install/steering_controllers_library:/home/feng/rosbot_ws/install/rosbot_xl:/home/feng/rosbot_ws/install/rosbot_xl_description:/home/feng/rosbot_ws/install/rosbot_hardware_interfaces:/home/feng/rosbot_ws/install/ros_components_description:/home/feng/rosbot_ws/install/range_sensor_broadcaster:/home/feng/rosbot_ws/install/position_controllers:/home/feng/rosbot_ws/install/micro_ros_agent:/home/feng/rosbot_ws/install/micro_ros_msgs:/home/feng/rosbot_ws/install/mecanum_drive_controller:/home/feng/rosbot_ws/install/admittance_controller:/home/feng/rosbot_ws/install/joint_trajectory_controller:/home/feng/rosbot_ws/install/joint_state_broadcaster:/home/feng/rosbot_ws/install/imu_sensor_broadcaster:/home/feng/rosbot_ws/install/husarion_office_gz:/home/feng/rosbot_ws/install/gripper_controllers:/home/feng/rosbot_ws/install/effort_controllers:/home/feng/rosbot_ws/install/forward_command_controller:/home/feng/rosbot_ws/install/force_torque_sensor_broadcaster:/home/feng/rosbot_ws/install/diff_drive_controller:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble')]), 'shell': False}
+[35.957793] (tutorial_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[35.958319] (tutorial_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[35.958667] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/lib/tutorial_pkg/my_first_node\n'}
+[35.974243] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/lib/tutorial_pkg/tracker\n'}
+[35.985714] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/lib/tutorial_pkg/tf_broadcaster\n'}
+[36.005349] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/lib/tutorial_pkg/tf_listener\n'}
+[36.020387] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/config/amcl.yaml\n'}
+[36.042675] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/config/explore.yaml\n'}
+[36.046322] (-) TimerEvent: {}
+[36.058385] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/config/navigation.yaml\n'}
+[36.072761] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/config/slam.yaml\n'}
+[36.088939] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/launch/amcl.launch.py\n'}
+[36.102528] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/launch/explore.launch.py\n'}
+[36.118201] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/launch/my_launch_file.launch.py\n'}
+[36.130494] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/launch/my_launch_file.xml\n'}
+[36.143251] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/launch/my_launch_file.yaml\n'}
+[36.147319] (-) TimerEvent: {}
+[36.155702] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/launch/navigation.launch.py\n'}
+[36.167230] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/launch/slam.launch.py\n'}
+[36.186424] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/maps/map.pgm\n'}
+[36.199505] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/maps/map.yaml\n'}
+[36.213704] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/maps/map_serialized.data\n'}
+[36.232824] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/maps/map_serialized.posegraph\n'}
+[36.247784] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/rviz/amcl.rviz\n'}
+[36.248066] (-) TimerEvent: {}
+[36.260941] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/rviz/explore.rviz\n'}
+[36.271667] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/rviz/navigation.rviz\n'}
+[36.288797] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/rviz/slam.rviz\n'}
+[36.305027] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/ament_index/resource_index/package_run_dependencies/tutorial_pkg\n'}
+[36.319619] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/ament_index/resource_index/parent_prefix_path/tutorial_pkg\n'}
+[36.335389] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/environment/ament_prefix_path.sh\n'}
+[36.348243] (-) TimerEvent: {}
+[36.350394] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/environment/ament_prefix_path.dsv\n'}
+[36.363735] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/environment/path.sh\n'}
+[36.376868] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/environment/path.dsv\n'}
+[36.401004] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/local_setup.bash\n'}
+[36.415743] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/local_setup.sh\n'}
+[36.430597] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/local_setup.zsh\n'}
+[36.446903] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/local_setup.dsv\n'}
+[36.448340] (-) TimerEvent: {}
+[36.459262] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/package.dsv\n'}
+[36.473143] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/ament_index/resource_index/packages/tutorial_pkg\n'}
+[36.494063] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/cmake/tutorial_pkgConfig.cmake\n'}
+[36.506139] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/cmake/tutorial_pkgConfig-version.cmake\n'}
+[36.517816] (tutorial_pkg) StdoutLine: {'line': b'-- Symlinking: /home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/package.xml\n'}
+[36.540984] (tutorial_pkg) CommandEnded: {'returncode': 0}
+[36.549183] (-) TimerEvent: {}
+[36.651426] (-) TimerEvent: {}
+[36.653737] (tutorial_pkg) JobEnded: {'identifier': 'tutorial_pkg', 'rc': 0}
+[36.654980] (-) EventReactorShutdown: {}

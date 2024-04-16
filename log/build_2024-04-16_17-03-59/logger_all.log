@@ -1,0 +1,299 @@
+[0.231s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.231s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffbb563d00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbb5637f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbb5637f0>>)
+[0.715s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.715s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.715s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.715s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.715s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.715s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.715s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/feng/ros2_ws'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ignore'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ignore_ament_install'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['colcon_pkg']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'colcon_pkg'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['colcon_meta']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'colcon_meta'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['ros']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ros'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['cmake', 'python']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'cmake'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'python'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['python_setup_py']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'python_setup_py'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['ignore', 'ignore_ament_install']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ignore'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ignore_ament_install'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['colcon_pkg']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'colcon_pkg'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['colcon_meta']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'colcon_meta'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['ros']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ros'
+[0.744s] DEBUG:colcon.colcon_core.package_identification:Package 'src/m-explore-ros2/explore' with type 'ros.ament_cmake' and name 'explore_lite'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['ignore', 'ignore_ament_install']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'ignore'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'ignore_ament_install'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['colcon_pkg']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'colcon_pkg'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['colcon_meta']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'colcon_meta'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['ros']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'ros'
+[0.746s] DEBUG:colcon.colcon_core.package_identification:Package 'src/m-explore-ros2/map_merge' with type 'ros.ament_cmake' and name 'multirobot_map_merge'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_pkg) by extension 'ignore'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_pkg) by extension 'ignore_ament_install'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_pkg) by extensions ['colcon_pkg']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_pkg) by extension 'colcon_pkg'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_pkg) by extensions ['colcon_meta']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_pkg) by extension 'colcon_meta'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_pkg) by extensions ['ros']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_pkg) by extension 'ros'
+[0.749s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tutorial_pkg' with type 'ros.ament_cmake' and name 'tutorial_pkg'
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.814s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/feng/ros2_ws/install
+[0.815s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/feng/ros2_ws/src/install
+[0.816s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/feng/aiil_workspace/humble_workspace/install
+[0.818s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 32 installed packages in /home/feng/rosbot_ws/install
+[0.820s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 397 installed packages in /opt/ros/humble
+[0.822s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_args' from command line to 'None'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_target' from command line to 'None'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_clean_cache' from command line to 'False'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_clean_first' from command line to 'False'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_force_configure' from command line to 'False'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'ament_cmake_args' from command line to 'None'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'catkin_cmake_args' from command line to 'None'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.954s] DEBUG:colcon.colcon_core.verb:Building package 'explore_lite' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/feng/ros2_ws/build/explore_lite', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/feng/ros2_ws/install/explore_lite', 'merge_install': False, 'path': '/home/feng/ros2_ws/src/m-explore-ros2/explore', 'symlink_install': False, 'test_result_base': None}
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_args' from command line to 'None'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_target' from command line to 'None'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_clean_first' from command line to 'False'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_force_configure' from command line to 'False'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'ament_cmake_args' from command line to 'None'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.954s] DEBUG:colcon.colcon_core.verb:Building package 'multirobot_map_merge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/feng/ros2_ws/build/multirobot_map_merge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/feng/ros2_ws/install/multirobot_map_merge', 'merge_install': False, 'path': '/home/feng/ros2_ws/src/m-explore-ros2/map_merge', 'symlink_install': False, 'test_result_base': None}
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'tutorial_pkg' build argument 'cmake_args' from command line to 'None'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'tutorial_pkg' build argument 'cmake_target' from command line to 'None'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'tutorial_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'tutorial_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'tutorial_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'tutorial_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'tutorial_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'tutorial_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'tutorial_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.955s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/feng/ros2_ws/build/tutorial_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/feng/ros2_ws/install/tutorial_pkg', 'merge_install': False, 'path': '/home/feng/ros2_ws/src/tutorial_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.955s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.957s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.957s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/feng/ros2_ws/src/m-explore-ros2/explore' with build type 'ament_cmake'
+[0.957s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/feng/ros2_ws/src/m-explore-ros2/explore'
+[0.969s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.969s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.970s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.982s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/feng/ros2_ws/src/m-explore-ros2/map_merge' with build type 'ament_cmake'
+[0.982s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/feng/ros2_ws/src/m-explore-ros2/map_merge'
+[0.982s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.982s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feng/ros2_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/feng/ros2_ws/src/m-explore-ros2/explore -DCMAKE_INSTALL_PREFIX=/home/feng/ros2_ws/install/explore_lite
+[1.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feng/ros2_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/feng/ros2_ws/src/m-explore-ros2/map_merge -DCMAKE_INSTALL_PREFIX=/home/feng/ros2_ws/install/multirobot_map_merge
+[10.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feng/ros2_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/feng/ros2_ws/src/m-explore-ros2/explore -DCMAKE_INSTALL_PREFIX=/home/feng/ros2_ws/install/explore_lite
+[10.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feng/ros2_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/feng/ros2_ws/build/explore_lite -- -j4 -l4
+[19.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feng/ros2_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/feng/ros2_ws/src/m-explore-ros2/map_merge -DCMAKE_INSTALL_PREFIX=/home/feng/ros2_ws/install/multirobot_map_merge
+[19.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feng/ros2_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/feng/ros2_ws/build/multirobot_map_merge -- -j4 -l4
+[69.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feng/ros2_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/feng/ros2_ws/build/explore_lite -- -j4 -l4
+[69.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feng/ros2_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/feng/ros2_ws/build/explore_lite
+[69.452s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_lite)
+[69.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feng/ros2_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/feng/ros2_ws/build/explore_lite
+[69.483s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/explore_lite' for CMake module files
+[69.484s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/explore_lite' for CMake config files
+[69.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite', 'cmake_prefix_path')
+[69.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feng/ros2_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.ps1'
+[69.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feng/ros2_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.dsv'
+[69.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feng/ros2_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.sh'
+[69.494s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/explore_lite/lib'
+[69.494s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/explore_lite/bin'
+[69.494s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/explore_lite/lib/pkgconfig/explore_lite.pc'
+[69.494s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/explore_lite/lib/python3.10/site-packages'
+[69.494s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/explore_lite/bin'
+[69.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/explore_lite/share/explore_lite/package.ps1'
+[69.496s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feng/ros2_ws/install/explore_lite/share/explore_lite/package.dsv'
+[69.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/explore_lite/share/explore_lite/package.sh'
+[69.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/explore_lite/share/explore_lite/package.bash'
+[69.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/explore_lite/share/explore_lite/package.zsh'
+[69.503s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feng/ros2_ws/install/explore_lite/share/colcon-core/packages/explore_lite)
+[69.571s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_lite)
+[69.572s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/explore_lite' for CMake module files
+[69.573s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/explore_lite' for CMake config files
+[69.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite', 'cmake_prefix_path')
+[69.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feng/ros2_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.ps1'
+[69.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feng/ros2_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.dsv'
+[69.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feng/ros2_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.sh'
+[69.575s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/explore_lite/lib'
+[69.576s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/explore_lite/bin'
+[69.576s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/explore_lite/lib/pkgconfig/explore_lite.pc'
+[69.576s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/explore_lite/lib/python3.10/site-packages'
+[69.577s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/explore_lite/bin'
+[69.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/explore_lite/share/explore_lite/package.ps1'
+[69.577s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feng/ros2_ws/install/explore_lite/share/explore_lite/package.dsv'
+[69.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/explore_lite/share/explore_lite/package.sh'
+[69.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/explore_lite/share/explore_lite/package.bash'
+[69.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/explore_lite/share/explore_lite/package.zsh'
+[69.581s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feng/ros2_ws/install/explore_lite/share/colcon-core/packages/explore_lite)
+[69.581s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/feng/ros2_ws/src/tutorial_pkg' with build type 'ament_cmake'
+[69.582s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/feng/ros2_ws/src/tutorial_pkg'
+[69.582s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[69.582s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[69.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feng/ros2_ws/build/tutorial_pkg': AMENT_PREFIX_PATH=/home/feng/ros2_ws/install/explore_lite:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/feng/ros2_ws/install/explore_lite:/home/feng/ros2_ws/install/tutorial_pkg:/home/feng/rosbot_ws/install/ros2_controllers:/home/feng/rosbot_ws/install/velocity_controllers:/home/feng/rosbot_ws/install/tricycle_steering_controller:/home/feng/rosbot_ws/install/tricycle_controller:/home/feng/rosbot_ws/install/bicycle_steering_controller:/home/feng/rosbot_ws/install/ackermann_steering_controller:/home/feng/rosbot_ws/install/steering_controllers_library:/home/feng/rosbot_ws/install/rosbot_xl:/home/feng/rosbot_ws/install/rosbot_xl_description:/home/feng/rosbot_ws/install/rosbot_hardware_interfaces:/home/feng/rosbot_ws/install/ros_components_description:/home/feng/rosbot_ws/install/range_sensor_broadcaster:/home/feng/rosbot_ws/install/position_controllers:/home/feng/rosbot_ws/install/micro_ros_agent:/home/feng/rosbot_ws/install/micro_ros_msgs:/home/feng/rosbot_ws/install/mecanum_drive_controller:/home/feng/rosbot_ws/install/admittance_controller:/home/feng/rosbot_ws/install/joint_trajectory_controller:/home/feng/rosbot_ws/install/joint_state_broadcaster:/home/feng/rosbot_ws/install/imu_sensor_broadcaster:/home/feng/rosbot_ws/install/husarion_office_gz:/home/feng/rosbot_ws/install/gripper_controllers:/home/feng/rosbot_ws/install/effort_controllers:/home/feng/rosbot_ws/install/forward_command_controller:/home/feng/rosbot_ws/install/force_torque_sensor_broadcaster:/home/feng/rosbot_ws/install/diff_drive_controller:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/feng/ros2_ws/build/tutorial_pkg -- -j4 -l4
+[70.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feng/ros2_ws/build/tutorial_pkg' returned '0': AMENT_PREFIX_PATH=/home/feng/ros2_ws/install/explore_lite:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/feng/ros2_ws/install/explore_lite:/home/feng/ros2_ws/install/tutorial_pkg:/home/feng/rosbot_ws/install/ros2_controllers:/home/feng/rosbot_ws/install/velocity_controllers:/home/feng/rosbot_ws/install/tricycle_steering_controller:/home/feng/rosbot_ws/install/tricycle_controller:/home/feng/rosbot_ws/install/bicycle_steering_controller:/home/feng/rosbot_ws/install/ackermann_steering_controller:/home/feng/rosbot_ws/install/steering_controllers_library:/home/feng/rosbot_ws/install/rosbot_xl:/home/feng/rosbot_ws/install/rosbot_xl_description:/home/feng/rosbot_ws/install/rosbot_hardware_interfaces:/home/feng/rosbot_ws/install/ros_components_description:/home/feng/rosbot_ws/install/range_sensor_broadcaster:/home/feng/rosbot_ws/install/position_controllers:/home/feng/rosbot_ws/install/micro_ros_agent:/home/feng/rosbot_ws/install/micro_ros_msgs:/home/feng/rosbot_ws/install/mecanum_drive_controller:/home/feng/rosbot_ws/install/admittance_controller:/home/feng/rosbot_ws/install/joint_trajectory_controller:/home/feng/rosbot_ws/install/joint_state_broadcaster:/home/feng/rosbot_ws/install/imu_sensor_broadcaster:/home/feng/rosbot_ws/install/husarion_office_gz:/home/feng/rosbot_ws/install/gripper_controllers:/home/feng/rosbot_ws/install/effort_controllers:/home/feng/rosbot_ws/install/forward_command_controller:/home/feng/rosbot_ws/install/force_torque_sensor_broadcaster:/home/feng/rosbot_ws/install/diff_drive_controller:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/feng/ros2_ws/build/tutorial_pkg -- -j4 -l4
+[70.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feng/ros2_ws/build/tutorial_pkg': AMENT_PREFIX_PATH=/home/feng/ros2_ws/install/explore_lite:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/feng/ros2_ws/install/explore_lite:/home/feng/ros2_ws/install/tutorial_pkg:/home/feng/rosbot_ws/install/ros2_controllers:/home/feng/rosbot_ws/install/velocity_controllers:/home/feng/rosbot_ws/install/tricycle_steering_controller:/home/feng/rosbot_ws/install/tricycle_controller:/home/feng/rosbot_ws/install/bicycle_steering_controller:/home/feng/rosbot_ws/install/ackermann_steering_controller:/home/feng/rosbot_ws/install/steering_controllers_library:/home/feng/rosbot_ws/install/rosbot_xl:/home/feng/rosbot_ws/install/rosbot_xl_description:/home/feng/rosbot_ws/install/rosbot_hardware_interfaces:/home/feng/rosbot_ws/install/ros_components_description:/home/feng/rosbot_ws/install/range_sensor_broadcaster:/home/feng/rosbot_ws/install/position_controllers:/home/feng/rosbot_ws/install/micro_ros_agent:/home/feng/rosbot_ws/install/micro_ros_msgs:/home/feng/rosbot_ws/install/mecanum_drive_controller:/home/feng/rosbot_ws/install/admittance_controller:/home/feng/rosbot_ws/install/joint_trajectory_controller:/home/feng/rosbot_ws/install/joint_state_broadcaster:/home/feng/rosbot_ws/install/imu_sensor_broadcaster:/home/feng/rosbot_ws/install/husarion_office_gz:/home/feng/rosbot_ws/install/gripper_controllers:/home/feng/rosbot_ws/install/effort_controllers:/home/feng/rosbot_ws/install/forward_command_controller:/home/feng/rosbot_ws/install/force_torque_sensor_broadcaster:/home/feng/rosbot_ws/install/diff_drive_controller:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/feng/ros2_ws/build/tutorial_pkg
+[70.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_pkg)
+[70.126s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/tutorial_pkg' for CMake module files
+[70.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feng/ros2_ws/build/tutorial_pkg' returned '0': AMENT_PREFIX_PATH=/home/feng/ros2_ws/install/explore_lite:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/feng/ros2_ws/install/explore_lite:/home/feng/ros2_ws/install/tutorial_pkg:/home/feng/rosbot_ws/install/ros2_controllers:/home/feng/rosbot_ws/install/velocity_controllers:/home/feng/rosbot_ws/install/tricycle_steering_controller:/home/feng/rosbot_ws/install/tricycle_controller:/home/feng/rosbot_ws/install/bicycle_steering_controller:/home/feng/rosbot_ws/install/ackermann_steering_controller:/home/feng/rosbot_ws/install/steering_controllers_library:/home/feng/rosbot_ws/install/rosbot_xl:/home/feng/rosbot_ws/install/rosbot_xl_description:/home/feng/rosbot_ws/install/rosbot_hardware_interfaces:/home/feng/rosbot_ws/install/ros_components_description:/home/feng/rosbot_ws/install/range_sensor_broadcaster:/home/feng/rosbot_ws/install/position_controllers:/home/feng/rosbot_ws/install/micro_ros_agent:/home/feng/rosbot_ws/install/micro_ros_msgs:/home/feng/rosbot_ws/install/mecanum_drive_controller:/home/feng/rosbot_ws/install/admittance_controller:/home/feng/rosbot_ws/install/joint_trajectory_controller:/home/feng/rosbot_ws/install/joint_state_broadcaster:/home/feng/rosbot_ws/install/imu_sensor_broadcaster:/home/feng/rosbot_ws/install/husarion_office_gz:/home/feng/rosbot_ws/install/gripper_controllers:/home/feng/rosbot_ws/install/effort_controllers:/home/feng/rosbot_ws/install/forward_command_controller:/home/feng/rosbot_ws/install/force_torque_sensor_broadcaster:/home/feng/rosbot_ws/install/diff_drive_controller:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/feng/ros2_ws/build/tutorial_pkg
+[70.127s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/tutorial_pkg' for CMake config files
+[70.128s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_pkg', 'cmake_prefix_path')
+[70.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/hook/cmake_prefix_path.ps1'
+[70.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/hook/cmake_prefix_path.dsv'
+[70.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/hook/cmake_prefix_path.sh'
+[70.131s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/tutorial_pkg/lib'
+[70.131s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/tutorial_pkg/bin'
+[70.132s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/tutorial_pkg/lib/pkgconfig/tutorial_pkg.pc'
+[70.132s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/tutorial_pkg/lib/python3.10/site-packages'
+[70.133s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/tutorial_pkg/bin'
+[70.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/package.ps1'
+[70.135s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/package.dsv'
+[70.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/package.sh'
+[70.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/package.bash'
+[70.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/package.zsh'
+[70.138s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feng/ros2_ws/install/tutorial_pkg/share/colcon-core/packages/tutorial_pkg)
+[70.215s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_pkg)
+[70.216s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/tutorial_pkg' for CMake module files
+[70.217s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/tutorial_pkg' for CMake config files
+[70.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_pkg', 'cmake_prefix_path')
+[70.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/hook/cmake_prefix_path.ps1'
+[70.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/hook/cmake_prefix_path.dsv'
+[70.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/hook/cmake_prefix_path.sh'
+[70.226s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/tutorial_pkg/lib'
+[70.227s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/tutorial_pkg/bin'
+[70.227s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/tutorial_pkg/lib/pkgconfig/tutorial_pkg.pc'
+[70.227s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/tutorial_pkg/lib/python3.10/site-packages'
+[70.227s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/tutorial_pkg/bin'
+[70.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/package.ps1'
+[70.229s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/package.dsv'
+[70.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/package.sh'
+[70.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/package.bash'
+[70.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/tutorial_pkg/share/tutorial_pkg/package.zsh'
+[70.233s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feng/ros2_ws/install/tutorial_pkg/share/colcon-core/packages/tutorial_pkg)
+[71.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feng/ros2_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/feng/ros2_ws/build/multirobot_map_merge -- -j4 -l4
+[71.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/feng/ros2_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/feng/ros2_ws/build/multirobot_map_merge
+[71.298s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multirobot_map_merge)
+[71.298s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/multirobot_map_merge' for CMake module files
+[71.299s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/multirobot_map_merge' for CMake config files
+[71.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('multirobot_map_merge', 'cmake_prefix_path')
+[71.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feng/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.ps1'
+[71.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feng/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.dsv'
+[71.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feng/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.sh'
+[71.301s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/multirobot_map_merge/lib'
+[71.301s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/multirobot_map_merge/bin'
+[71.301s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/multirobot_map_merge/lib/pkgconfig/multirobot_map_merge.pc'
+[71.301s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/multirobot_map_merge/lib/python3.10/site-packages'
+[71.301s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/multirobot_map_merge/bin'
+[71.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.ps1'
+[71.302s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feng/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv'
+[71.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.sh'
+[71.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.bash'
+[71.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.zsh'
+[71.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/feng/ros2_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/feng/ros2_ws/build/multirobot_map_merge
+[71.304s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feng/ros2_ws/install/multirobot_map_merge/share/colcon-core/packages/multirobot_map_merge)
+[71.364s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multirobot_map_merge)
+[71.365s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/multirobot_map_merge' for CMake module files
+[71.365s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/multirobot_map_merge' for CMake config files
+[71.366s] Level 1:colcon.colcon_core.shell:create_environment_hook('multirobot_map_merge', 'cmake_prefix_path')
+[71.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feng/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.ps1'
+[71.367s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/feng/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.dsv'
+[71.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/feng/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.sh'
+[71.369s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/multirobot_map_merge/lib'
+[71.369s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/multirobot_map_merge/bin'
+[71.369s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/multirobot_map_merge/lib/pkgconfig/multirobot_map_merge.pc'
+[71.369s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/multirobot_map_merge/lib/python3.10/site-packages'
+[71.370s] Level 1:colcon.colcon_core.environment:checking '/home/feng/ros2_ws/install/multirobot_map_merge/bin'
+[71.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.ps1'
+[71.371s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/feng/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv'
+[71.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.sh'
+[71.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.bash'
+[71.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/feng/ros2_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.zsh'
+[71.373s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/feng/ros2_ws/install/multirobot_map_merge/share/colcon-core/packages/multirobot_map_merge)
+[71.374s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[71.375s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[71.375s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[71.375s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[71.429s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[71.429s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[71.429s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[71.543s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[71.543s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/feng/ros2_ws/install/local_setup.ps1'
+[71.546s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/feng/ros2_ws/install/_local_setup_util_ps1.py'
+[71.548s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/feng/ros2_ws/install/setup.ps1'
+[71.552s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/feng/ros2_ws/install/local_setup.sh'
+[71.565s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/feng/ros2_ws/install/_local_setup_util_sh.py'
+[71.565s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/feng/ros2_ws/install/setup.sh'
+[71.577s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/feng/ros2_ws/install/local_setup.bash'
+[71.585s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/feng/ros2_ws/install/setup.bash'
+[71.593s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/feng/ros2_ws/install/local_setup.zsh'
+[71.595s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/feng/ros2_ws/install/setup.zsh'

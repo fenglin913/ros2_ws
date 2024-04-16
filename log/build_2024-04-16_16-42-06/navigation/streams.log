@@ -1,0 +1,36 @@
+[1.803s] Invoking command in '/home/feng/ros2_ws/src/navigation': PYTHONPATH=/home/feng/ros2_ws/build/navigation/prefix_override:/home/feng/ros2_ws/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation build --build-base /home/feng/ros2_ws/build/navigation/build install --record /home/feng/ros2_ws/build/navigation/install.log --single-version-externally-managed install_data
+[2.232s] running egg_info
+[2.235s] creating ../../build/navigation/navigation.egg-info
+[2.235s] writing ../../build/navigation/navigation.egg-info/PKG-INFO
+[2.236s] writing dependency_links to ../../build/navigation/navigation.egg-info/dependency_links.txt
+[2.236s] writing entry points to ../../build/navigation/navigation.egg-info/entry_points.txt
+[2.236s] writing requirements to ../../build/navigation/navigation.egg-info/requires.txt
+[2.236s] writing top-level names to ../../build/navigation/navigation.egg-info/top_level.txt
+[2.236s] writing manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[2.236s] reading manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[2.236s] writing manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[2.236s] running build
+[2.236s] running build_py
+[2.236s] creating /home/feng/ros2_ws/build/navigation/build
+[2.236s] creating /home/feng/ros2_ws/build/navigation/build/lib
+[2.236s] creating /home/feng/ros2_ws/build/navigation/build/lib/navigation
+[2.236s] copying navigation/navi_test.py -> /home/feng/ros2_ws/build/navigation/build/lib/navigation
+[2.237s] copying navigation/__init__.py -> /home/feng/ros2_ws/build/navigation/build/lib/navigation
+[2.237s] running install
+[2.237s] running install_lib
+[2.239s] creating /home/feng/ros2_ws/install/navigation/lib/python3.10/site-packages/navigation
+[2.239s] copying /home/feng/ros2_ws/build/navigation/build/lib/navigation/navi_test.py -> /home/feng/ros2_ws/install/navigation/lib/python3.10/site-packages/navigation
+[2.239s] copying /home/feng/ros2_ws/build/navigation/build/lib/navigation/__init__.py -> /home/feng/ros2_ws/install/navigation/lib/python3.10/site-packages/navigation
+[2.240s] byte-compiling /home/feng/ros2_ws/install/navigation/lib/python3.10/site-packages/navigation/navi_test.py to navi_test.cpython-310.pyc
+[2.240s] byte-compiling /home/feng/ros2_ws/install/navigation/lib/python3.10/site-packages/navigation/__init__.py to __init__.cpython-310.pyc
+[2.240s] running install_data
+[2.241s] creating /home/feng/ros2_ws/install/navigation/share/ament_index
+[2.241s] creating /home/feng/ros2_ws/install/navigation/share/ament_index/resource_index
+[2.241s] creating /home/feng/ros2_ws/install/navigation/share/ament_index/resource_index/packages
+[2.241s] copying resource/navigation -> /home/feng/ros2_ws/install/navigation/share/ament_index/resource_index/packages
+[2.241s] copying package.xml -> /home/feng/ros2_ws/install/navigation/share/navigation
+[2.241s] running install_egg_info
+[2.245s] Copying ../../build/navigation/navigation.egg-info to /home/feng/ros2_ws/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info
+[2.247s] running install_scripts
+[2.284s] writing list of installed files to '/home/feng/ros2_ws/build/navigation/install.log'
+[2.360s] Invoked command in '/home/feng/ros2_ws/src/navigation' returned '0': PYTHONPATH=/home/feng/ros2_ws/build/navigation/prefix_override:/home/feng/ros2_ws/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation build --build-base /home/feng/ros2_ws/build/navigation/build install --record /home/feng/ros2_ws/build/navigation/install.log --single-version-externally-managed install_data

@@ -1,0 +1,103 @@
+[0.040s] Invoking command in '/home/feng/ros2_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/feng/ros2_ws/src/m-explore-ros2/explore -DCMAKE_INSTALL_PREFIX=/home/feng/ros2_ws/install/explore_lite
+[0.360s] -- The C compiler identification is GNU 11.4.0
+[0.566s] -- The CXX compiler identification is GNU 11.4.0
+[0.587s] -- Detecting C compiler ABI info
+[0.707s] -- Detecting C compiler ABI info - done
+[0.720s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.720s] -- Detecting C compile features
+[0.723s] -- Detecting C compile features - done
+[0.731s] -- Detecting CXX compiler ABI info
+[0.873s] -- Detecting CXX compiler ABI info - done
+[0.885s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.886s] -- Detecting CXX compile features
+[0.887s] -- Detecting CXX compile features - done
+[0.888s] -- BuilD for ROS2: humble
+[0.902s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.223s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.490s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.666s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.687s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.719s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.774s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.834s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.058s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.073s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.194s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.232s] -- Looking for pthread.h
+[2.386s] -- Looking for pthread.h - found
+[2.396s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.509s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.511s] -- Found Threads: TRUE  
+[2.878s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.154s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.951s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.996s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.998s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.999s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.025s] -- Found nav2_msgs: 1.1.13 (/opt/ros/humble/share/nav2_msgs/cmake)
+[4.556s] -- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)
+[4.782s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[5.035s] -- Found nav2_costmap_2d: 1.1.13 (/opt/ros/humble/share/nav2_costmap_2d/cmake)
+[7.945s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.091s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[8.100s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.167s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.168s] -- Configured cppcheck include dirs: /home/feng/ros2_ws/src/m-explore-ros2/explore/include;$<BUILD_INTERFACE:/home/feng/ros2_ws/src/m-explore-ros2/explore/include>
+[9.168s] -- Configured cppcheck exclude dirs and/or files: 
+[9.170s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.172s] -- Added test 'lint_cmake' to check CMake code style
+[9.174s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.177s] -- Added test 'uncrustify' to check C / C++ code style
+[9.177s] -- Configured uncrustify additional arguments: 
+[9.181s] -- Added test 'xmllint' to check XML markup files
+[9.186s] -- Configuring done
+[9.431s] -- Generating done
+[9.436s] -- Build files have been written to: /home/feng/ros2_ws/build/explore_lite
+[9.456s] Invoked command in '/home/feng/ros2_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/feng/ros2_ws/src/m-explore-ros2/explore -DCMAKE_INSTALL_PREFIX=/home/feng/ros2_ws/install/explore_lite
+[9.460s] Invoking command in '/home/feng/ros2_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/feng/ros2_ws/build/explore_lite -- -j4 -l4
+[9.542s] [ 10%] [32mBuilding CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o[0m
+[27.589s] [ 20%] [32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o[0m
+[46.804s] [ 30%] [32mBuilding CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o[0m
+[54.762s] [ 40%] [32m[1mLinking CXX executable explore[0m
+[59.989s] [ 40%] Built target explore
+[60.039s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[64.392s] [ 60%] [32m[1mLinking CXX static library libgtest.a[0m
+[64.537s] [ 60%] Built target gtest
+[64.575s] [ 70%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[65.476s] [ 80%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[65.593s] [ 80%] Built target gtest_main
+[65.630s] [ 90%] [32mBuilding CXX object CMakeFiles/test_explore.dir/test/test_explore.cpp.o[0m
+[67.411s] [100%] [32m[1mLinking CXX executable test_explore[0m
+[68.324s] [100%] Built target test_explore
+[68.349s] Invoked command in '/home/feng/ros2_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/feng/ros2_ws/build/explore_lite -- -j4 -l4
+[68.426s] Invoking command in '/home/feng/ros2_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/feng/ros2_ws/build/explore_lite
+[68.444s] -- Install configuration: ""
+[68.444s] -- Installing: /home/feng/ros2_ws/install/explore_lite/include/explore/
+[68.445s] -- Installing: /home/feng/ros2_ws/install/explore_lite/include/explore//costmap_client.h
+[68.446s] -- Installing: /home/feng/ros2_ws/install/explore_lite/include/explore//frontier_search.h
+[68.446s] -- Installing: /home/feng/ros2_ws/install/explore_lite/include/explore//explore.h
+[68.446s] -- Installing: /home/feng/ros2_ws/install/explore_lite/include/explore//costmap_tools.h
+[68.446s] -- Installing: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/config
+[68.446s] -- Installing: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/config/params.yaml
+[68.447s] -- Installing: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[68.448s] -- Installing: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/launch
+[68.448s] -- Installing: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[68.448s] -- Installing: /home/feng/ros2_ws/install/explore_lite/lib/explore_lite/explore
+[68.462s] -- Set runtime path of "/home/feng/ros2_ws/install/explore_lite/lib/explore_lite/explore" to ""
+[68.463s] -- Installing: /home/feng/ros2_ws/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[68.463s] -- Installing: /home/feng/ros2_ws/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[68.464s] -- Installing: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[68.464s] -- Installing: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[68.465s] -- Installing: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/environment/path.sh
+[68.465s] -- Installing: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/environment/path.dsv
+[68.467s] -- Installing: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/local_setup.bash
+[68.468s] -- Installing: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/local_setup.sh
+[68.468s] -- Installing: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/local_setup.zsh
+[68.486s] -- Installing: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/local_setup.dsv
+[68.486s] -- Installing: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/package.dsv
+[68.487s] -- Installing: /home/feng/ros2_ws/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[68.487s] -- Installing: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[68.487s] -- Installing: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[68.488s] -- Installing: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[68.488s] -- Installing: /home/feng/ros2_ws/install/explore_lite/share/explore_lite/package.xml
+[68.494s] Invoked command in '/home/feng/ros2_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/feng/ros2_ws/install/navigation:/home/feng/ros2_ws/install/my_robot_controller:/home/feng/ros2_ws/src/install/my_robot_controller:/home/feng/rosbot_ws/install/rqt_joint_trajectory_controller:/home/feng/rosbot_ws/install/rosbot_xl_utils:/home/feng/rosbot_ws/install/rosbot_xl_gazebo:/home/feng/rosbot_ws/install/rosbot_xl_bringup:/home/feng/rosbot_ws/install/rosbot_xl_controller:/home/feng/rosbot_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/feng/ros2_ws/build/explore_lite
